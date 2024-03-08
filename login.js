@@ -21,10 +21,10 @@ const auth = getAuth(app);
 
 let signin = document.getElementById("in-btn");
 signin.addEventListener("click", function (event) {
-  const e = document.getElementById("Email");
-  const p = document.getElementById("pass");
-  e.value = "";
-  p.value = ""; 
+  // const e = document.getElementById("Email");
+  // const p = document.getElementById("pass");
+  // e.value = "";
+  // p.value = ""; 
   let tittle = document.getElementById("tittle");
   window.nameField.style.maxHeight = "0";
   let text = "Sign In";
